@@ -5,6 +5,11 @@ const LOAD_MODULES = ["functions", "gui", "commands", "events"];
 
 class NetworkMod {
 	constructor() {
+		this.params = {
+			colors: { gui: {}, general: {} }, // color settings
+			command: ["guide"], // module command
+		};
+
 		this.guide = {
 			id: undefined,     // zone id
 			name: undefined,   // zone dungeon name (translated)
@@ -14,10 +19,7 @@ class NetworkMod {
 			context: null,     // object of guide context
 			spawned_npcs: {},  // list of spawned NPCs, used in spawn/despawn hooks
 			spawned_items: {}, // list of spawned items, uses for force despawn its
-			mobs_hp: {},       // list of values with NPCs (mobs) last hp
-			params: {
-				command: ["guide"],
-			},
+			mobs_hp: {}        // list of values with NPCs (mobs) last hp
 		};
 
 		global.defaultSettings = {
@@ -31,7 +33,7 @@ class NetworkMod {
 	load(mod, params = {}) {
 		this.mod = mod;
 
-		Object.assign(this.guide.params, params);
+		Object.assign(this.params, params);
 
 		try {
 			for (let name of LOAD_CLASSES) {
@@ -40,7 +42,7 @@ class NetworkMod {
 			}
 
 			for (let name of LOAD_MODULES) {
-				require(`./lib/core/${name}`)(this.mod, this.guide, this.lang, this.dispatch);
+				require(`./lib/core/${name}`)(this.mod, this.guide, this.lang, this.dispatch, this.params);
 			}
 		} catch(e) {
 			throw e;
