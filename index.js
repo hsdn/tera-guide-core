@@ -14,7 +14,10 @@ class NetworkMod {
 			context: null,     // object of guide context
 			spawned_npcs: {},  // list of spawned NPCs, used in spawn/despawn hooks
 			spawned_items: {}, // list of spawned items, uses for force despawn its
-			mobs_hp: {}        // list of values with NPCs (mobs) last hp
+			mobs_hp: {},       // list of values with NPCs (mobs) last hp
+			params: {
+				command: ["guide"],
+			},
 		};
 
 		global.defaultSettings = {
@@ -25,8 +28,10 @@ class NetworkMod {
 		Object.assign(this.guide, defaultSettings);
 	}
 
-	load(mod) {
+	load(mod, params = {}) {
 		this.mod = mod;
+
+		Object.assign(this.guide.params, params);
 
 		try {
 			for (let name of LOAD_CLASSES) {
