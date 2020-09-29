@@ -8,6 +8,7 @@ class NetworkMod {
 		this.params = {
 			colors: { gui: {}, general: {} }, // color settings
 			command: ["guide"], // module command
+			chat_name: "Guide", // set chat author name for notices
 		};
 
 		this.guide = {
