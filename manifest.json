@@ -8,7 +8,7 @@
         "lib/compat/lib.js": "589b157cdbbc05fa1154441f899895693f88325dad1effdc169ce749b7b642d8",
         "lib/core/commands.js": "99a5cd9244f219c1a5d7237b74366dc3aaf15f11a24ab652fdad70a0fa2c1b94",
         "lib/core/events.js": "10ee35f81967247acb819247a63c5b35ffd35d2ab79a03bea586b589dafe4b42",
-        "lib/core/functions.js": "88ba47d46ea8842c778178dbc79ccfbd8edf21911c765d19a360b2acc01fb516",
+        "lib/core/functions.js": "d01e55a48cc7e979a92832be9165b77526022f1f73a30894414cca5ef4afd621",
         "lib/core/gui.js": "285d268df61f87d35ea5510724fc06ec74175045eb14f9864d2b8712a1255401",
         "lib/dispatch.js": "cbfaa6f1eff3ad888d0f1853eb37cff2ba34985ab9ccc3aa9a875e35503eb453",
         "lib/lang.js": "451e48b904d33fcab8a50efb1f85efcbd2c077434806d6838a82331aa631f8a7",
