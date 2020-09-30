@@ -1,54 +1,32 @@
 'use strict';
 
-const LOAD_CLASSES = ["lang", "dispatch"];
-const LOAD_MODULES = ["functions", "gui", "commands", "events"];
+const Dispatch = require("./lib/dispatch");
+const Lang = require("./lib/lang");
 
-class NetworkMod {
+class TeraGuideCore {
 	constructor() {
 		this.params = {
 			colors: { gui: {}, general: {} }, // color settings
 			command: ["guide"], // module command
 			chat_name: "Guide", // set chat author name for notices
 		};
-
-		this.guide = {
-			id: undefined,     // zone id
-			name: undefined,   // zone dungeon name (translated)
-			type: false,       // type of zone skill id range
-			ent: false,        // last ent of triggered event by function handler
-			loaded: false,     // boolean of guide loading status
-			context: null,     // object of guide context
-			spawned_npcs: {},  // list of spawned NPCs, used in spawn/despawn hooks
-			spawned_items: {}, // list of spawned items, uses for force despawn its
-			mobs_hp: {}        // list of values with NPCs (mobs) last hp
-		};
-
-		global.defaultSettings = {
-			verbose: true,
-			spawnObject: true
-		};
-
-		Object.assign(this.guide, defaultSettings);
 	}
 
 	load(mod, params = {}) {
-		this.mod = mod;
-
 		Object.assign(this.params, params);
 
-		try {
-			for (let name of LOAD_CLASSES) {
-				let instance = require(`./lib/${name}`);
-				this[name] = new instance(this.mod);
-			}
+		const lang = new Lang(mod);
+		const dispatch = new Dispatch(mod);
 
-			for (let name of LOAD_MODULES) {
-				require(`./lib/core/${name}`)(this.mod, this.guide, this.lang, this.dispatch, this.params);
-			}
-		} catch(e) {
-			throw e;
-		}
+		require("./lib/core/events")(mod, lang, dispatch, this.params);
 	}
 }
 
-module.exports = NetworkMod;
+module.exports.NetworkMod = function Require(mod, ...args) {
+	if(mod.info.name !== "tera-guide-core")
+		throw new Error(`Tried to require tera-guide-core module: ${mod.info.name}`);
+
+	return new TeraGuideCore(mod, ...args);
+}
+
+module.exports.RequireInterface = (globalMod, clientMod, networkMod) => networkMod;
