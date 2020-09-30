@@ -13,7 +13,7 @@
         "lib/dispatch.js": "cbfaa6f1eff3ad888d0f1853eb37cff2ba34985ab9ccc3aa9a875e35503eb453",
         "lib/lang.js": "e672fe5d1cf18ba6fc910fe4e26d82452fb56dfd9b37aa67635bc85b519487c5",
         "lib/lang/dungeons.js": "0310e7f09fabd21d4be5c2765bf3b8036b1b47a3d499d76d82af01e4e90fd3ac",
-        "lib/lang/strings.js": "8703794b2bf4c33baaf32054358efe155eae28e8c6b04fb9dfdc251ab0fe52c0",
+        "lib/lang/strings.js": "8a4741550ef5733e8611cffbe4533587872b17fde74ac48f77735d4b1fd44f65",
         "lib/spawn.js": "485f7039feecd99ceb1e370d194c17a05fec4cabaacca42f67a45d950e3763b6",
         "lib/voice.js": "7c542b5dabc94e8c64beb1be1e8b39f66c560e08d680ddf5266d237c2a49e00c",
         "module.json": "911a9ee1799d686f015c6972d138b7d3dcfdb7d68ccc37865c9e2f058c1914cf"
