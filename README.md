@@ -4,7 +4,7 @@
 
 Extract to **mods** directory in your TeraToolbox. DO NOT INSTALLED IT AS **tera-guide-core-master** MAKE SURE IT'S NAMED **tera-guide-core**.
 
-����������� � ���������� **mods** � ��� TeraToolbox. �� ������������� ��� **tera-guide-core-master**, ���������� ������ ���������� **tera-guide-core**.
+Распаковать в директорию **mods** в ваш TeraToolbox. НЕ РАСПАКОВЫВАТЬ КАК **tera-guide-core-master**, ДИРЕКТОРИЯ ДОЛЖНА НАЗЫВАТЬСЯ **tera-guide-core**.
 
 
 See for more details https://github.com/hsdn/tera-guide
