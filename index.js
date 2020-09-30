@@ -9,6 +9,7 @@ class NetworkMod {
 			colors: { gui: {}, general: {} }, // color settings
 			command: ["guide"], // module command
 			chat_name: "Guide", // set chat author name for notices
+			gNotice_gui: false, // show gNotice settings in the GUI
 		};
 
 		this.guide = {
