@@ -10,7 +10,7 @@
         "lib/core/events.js": "174e064411b7be720d9a9005300ff378b50b61ee1f3eee124229bd6e7fa666f8",
         "lib/core/functions.js": "f10960a975206f16f412afe4343c9aaf034d79c44bce5cdc5a573290db12078e",
         "lib/core/gui.js": "5125677023cdc0848796c336671421ffd0c95763fcb894c9bb4bd1a30fd4f050",
-        "lib/core/guide.js": "0d1f616463334d65b73e940a955a5faace15ef81fa27d8c07c8f19427827476a",
+        "lib/core/guide.js": "a15bf74d4b85317b7b9b77de2b99ec2e3686f0c4cdff6ac14f9dfbcfa2bfaa3e",
         "lib/core/handlers.js": "872e43e6dab20ae725b4c54b87bcedf2ba75f9f134fbe4672771e43a6682c44a",
         "lib/dispatch.js": "cbfaa6f1eff3ad888d0f1853eb37cff2ba34985ab9ccc3aa9a875e35503eb453",
         "lib/lang.js": "e672fe5d1cf18ba6fc910fe4e26d82452fb56dfd9b37aa67635bc85b519487c5",
