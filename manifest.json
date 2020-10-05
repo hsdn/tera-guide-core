@@ -12,7 +12,7 @@
         "lib/core/gui.js": "3a6ff849dc84f297e1376af1eafe1c2571003440ce4f01eff02005110cb8d275",
         "lib/core/guide.js": "8dacb29aacc54967da87cd4d8ed224e7cda3518dfe0e0bddb1a54f6f3ca3e80c",
         "lib/core/handlers.js": "3c2a781c66e88d942f3fab386c04b0b7bf2088d3b825177db917be73bf81dd3e",
-        "lib/core/hooks.js": "fb8ff79da0013520583651489b731c4e901ee1b87554e1af7ddc18af74afc290",
+        "lib/core/hooks.js": "f6181d01ab9244de68e353dc010c9f2f5a8c3062b5d4d8e63fad4b195b154a08",
         "lib/dispatch.js": "614ae118a917ad1a91f3b6ec099d3ee5826f9cc740034395d6bafe4958d8b3fb",
         "lib/lang.js": "fd5899399ef95bb421bf507e613cb62232d42f06d69e969552b2644d49471ed8",
         "lib/lang/dungeons.js": "225f3234ca08630a2425bd7e1365aa273b3943e007924c7df47320427278231f",
