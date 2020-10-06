@@ -34,7 +34,7 @@
         "lib/core/handlers.js": "53897217ea384040b5ccdda5146fe847d021f46f0c1f443d35376a6e4f5706fb",
         "lib/core/hooks.js": "d4e91811aa74176193dacaab4948898e127b21fd32befd1e3ad1675d3e30a79e",
         "lib/dispatch.js": "614ae118a917ad1a91f3b6ec099d3ee5826f9cc740034395d6bafe4958d8b3fb",
-        "lib/lang.js": "8228ac503df0e4542a51d3088a5b35ea7f2020a184ee86ceb7175c9e1c512c2f",
+        "lib/lang.js": "ecd7dfaaeae3d47acfeb0b436bab769cf3fe01d46f66dd3287a56c15bfd4be7c",
         "lib/lang/dungeons.js": "225f3234ca08630a2425bd7e1365aa273b3943e007924c7df47320427278231f",
         "lib/lang/strings.js": "f8359bed8060301dacaf10252226bf1daead067164aaf8966d47fe273c2070e1",
         "lib/send.js": "758524c74401c7a3683f4ed12aa64f1e05fd55cba94ebf3c333f466010938841",
