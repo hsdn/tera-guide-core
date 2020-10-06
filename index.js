@@ -29,12 +29,16 @@ class TeraGuideCore {
 
 		submodules.forEach(submodule => {
 			deps[submodule[0]] = new submodule[1](deps);
+
+			if (typeof deps[submodule[0]].init === "function") {
+				deps[submodule[0]].init();
+			}
 		});
 
 		this.destructor = () => {
-			Object.keys(submodules).forEach(key => {
-				if (key !== "mod" && typeof submodules[key].destructor === "function") {
-					submodules[key].destructor();
+			Object.keys(deps).forEach(key => {
+				if (key !== "mod" && typeof deps[key].destructor === "function") {
+					deps[key].destructor();
 				}
 			});
 		};
