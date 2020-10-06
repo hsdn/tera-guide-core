@@ -30,7 +30,7 @@
         "lib/core/events/hooks/S_SPAWN_NPC.js": "c20e6213b2d75ad923a9f416fd73cd166ad0b83c43fba6876954742b3d14277f",
         "lib/core/functions.js": "0c00d3574f261a8c413704734f59a0cadb44a052fd6f3ea5f6850e2d5b1c1e0c",
         "lib/core/gui.js": "3a6ff849dc84f297e1376af1eafe1c2571003440ce4f01eff02005110cb8d275",
-        "lib/core/guide.js": "3edae6b3674422babfcfebdcc5bc7742e8bb9abe35d106c7714ffd2a4086ae87",
+        "lib/core/guide.js": "a9486ec502bc233230fff8bd37757ae93485d1c7be92361fbb4dd40173c224e1",
         "lib/core/handlers.js": "e4ef50c4200dff9c4b71964d828716a0764b5309144741b16965294bb1d52267",
         "lib/core/hooks.js": "be5a049861fe43bd9a1a1356feab13b98617a121cdb53b661049e1e88c3a3827",
         "lib/dispatch.js": "614ae118a917ad1a91f3b6ec099d3ee5826f9cc740034395d6bafe4958d8b3fb",
