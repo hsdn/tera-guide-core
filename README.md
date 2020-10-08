@@ -1,16 +1,98 @@
 # tera-guide-core
 
-The library, required for TERA-Guide based modules. See for more details https://github.com/hsdn/tera-guide
+Functional module for creating your own guides for dungeons, bosses and mechanics. With this set of features, you can create your guide in any translation, for this you just need to write a simple script and require this module to your index.js. 
+
+The guides based on this module can be found here: https://github.com/hsdn/tera-guide
+
+## Basic features
+
+* Complete tools for custom guides creation for your favorite dungeons.
+* Support for the features to add your languages translations.
+* Built-in GUI support for all guide settings.
+* Support for voice notifications (TTS Windows module is used).
+* Flexible and powerful functionality for scripting guides.
+* Automatically generated dungeon list based on game client files.
+* Used modern JavaScript for improved performance.
+* To handle all events and hooks used nodejs EventEmitter.
+
+## Dependencies
+
+* **Library** - https://github.com/tera-toolbox-mods/library
+
+When using TeraToolbox, all dependencies will be installed automatically.
 
 ## Manual Installation
 
 Extract to **mods** directory in your TeraToolbox.   
-DO NOT INSTALLED IT AS "tera-guide-core-master" MAKE SURE IT'S NAMED **tera-guide-core**.
+Make sure it's named **tera-guide-core** not "tera-guide-core-master".
 
-Распаковать в директорию **mods** в ваш TeraToolbox.   
-НЕ РАСПАКОВЫВАТЬ КАК "tera-guide-core-master", ДИРЕКТОРИЯ ДОЛЖНА НАЗЫВАТЬСЯ **tera-guide-core**.
+_Распаковать в директорию **mods** в ваш TeraToolbox.   
+Директория должна называться **tera-guide-core**, а не "tera-guide-core-master"._
 
-## Dependencies
-* **Library** - https://github.com/tera-toolbox-mods/library
+## How to make your own guide
 
-When using TeraToolbox, all dependencies will be installed automatically.
+1. Create new module for TeraToolbox (_index.js_, _module.json_, _manifest.json_, _settings\_migrator.js_).
+2. Add necessary code (is given below) to the **index.js** and **module.json**.
+3. Create a folder called **guides** into root directory of your module.
+4. Create your own guide script files and place it into **guides** folder.
+
+Detailed information of creating your own guides is available here: https://github.com/hsdn/tera-guide-core/wiki
+
+#### Example of `index.js` file
+```js
+"use strict";
+
+module.exports.NetworkMod = function (mod) {
+	try {
+		mod.require["tera-guide-core"].load(mod, {
+			colors: { gui: {}, general: {} }, // you can change the color settings here
+			command: ["guide"], // set your module command(s) name
+			chat_name: "Guide", // set chat author name for notices
+		});
+	} catch (e) {
+		mod.error("Warning!\nDepended module \"tera-guide-core\" is needed, but not installed!");
+		throw e;
+	}
+};
+```
+
+#### Example of `module.json` file
+Note: The dependencies cannot be changed. Also **do not use** the `settingsVersion` below **1.14**, otherwise there will be migration problems.
+```json
+{
+    "disableAutoUpdate": false,
+    "name": "dungeon-guide",
+    "options": {
+        "niceName": "Guide",
+        "guiName": "Dungeon-Guide",
+        "settingsFile": "config.json",
+        "settingsMigrator": "settings_migrator.js",
+        "settingsVersion": 1.14
+    },
+    "author": "Example",
+    "description": "The dungeon guide module with TTS notifications.",
+    "servers": ["https://raw.githubusercontent.com/__YOUR_REPOSITORY_HERE__/master/"],
+    "dependencies": {
+        "library": "https://raw.githubusercontent.com/tera-toolbox-mods/library/master/module.json",
+        "tera-guide-core": "https://raw.githubusercontent.com/hsdn/tera-guide-core/master/module.json"
+    }
+}
+```
+
+#### The settings migrator script available here: https://github.com/hsdn/tera-guide/blob/master/settings_migrator.js
+
+## Custom translation
+
+If necessary, you can add your own translation of the commands, GUI and dungeon list. To do this, create a **lang** folder into root directory of your module, add files there [strings.js](https://raw.githubusercontent.com/hsdn/tera-guide-core/master/lib/lang/strings.js) and [dungeons.js](https://raw.githubusercontent.com/hsdn/tera-guide-core/master/lib/lang/dungeons.js). And edit them to include your translation. It is recommended to use the ISO code to language specify in the array of strings.
+
+Next, edit your **settings_migrator.js** by changing the `language` parameter, specify the ISO code of your language on it (the language code must match the one specified in the guide files and files above). To specify the your language for message strings in guide files, use the keys `message_LANG` (where `LANG` is the ISO code of your language), for example: `message_RU`.
+
+## Available guides
+
+Based on this module, a lot of guides have already been created for all long dungeons.   
+The guide script files are available here: https://github.com/hsdn/tera-guide/tree/master/guides
+
+## Credits
+- **[Kasea](https://github.com/tera-toolbox-mods)** - Original developer of Tera-Guide and Library modules
+- **[michengs](https://github.com/michengs)** - Developer of initial code of the module core
+- **[Multarix](https://github.com/Multarix)** - Author of some ideas that were used in the code
