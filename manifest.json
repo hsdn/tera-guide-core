@@ -39,7 +39,7 @@
         "lib/lang/strings.js": "f8359bed8060301dacaf10252226bf1daead067164aaf8966d47fe273c2070e1",
         "lib/send.js": "369955f4038a08d17b0ae25a35ed1cd248b5c8d2439cfe7f83a0a0ba6323e627",
         "lib/spawn.js": "964e43e6921bbab6ce45283027f1f7f0da81c1d719bf96c619d26521bab3b4c3",
-        "lib/voice.js": "9680c2d48a61d7d079908a4b131239f7f5704291cd4341bcb2b08d810f02734a",
+        "lib/voice.js": "639601ffc6ce348867f503394a8cdc2a15cfced1d5ea5de82b536245e2c892e7",
         "module.json": "911a9ee1799d686f015c6972d138b7d3dcfdb7d68ccc37865c9e2f058c1914cf"
     },
     "defs": {
