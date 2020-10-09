@@ -2,7 +2,7 @@
     "files": {
         "LICENSE": "3a6951431f77f106f39ebc87cc32cb6aee7371cc168ec1862d2ce8775875c8f1",
         "README.md": "8b30b42e37ebff09f5ac81ea12bd35c87fb02a9b0a2352762c56b8cce8dc6b35",
-        "index.js": "945ad7ad66a56c1ff9eba97e6c88caf16d82170d62e5f6a0125a86fd5ec9cdab",
+        "index.js": "83b4720c8766d8ee7ffcd66ca46c1ad6f4e0adf4e2270d2caf69f93c4e35e5ce",
         "lib/compat/data/esZones.json": "43aedf3c82fd29736eae4b497f21bd78dfec11cfbe806c3520f1fe5336f38f1e",
         "lib/compat/data/spZones.json": "9324cf924ba3fb9e0ca7ccdeef766edc33bfab4205f875a2b3c964dcf816a0d9",
         "lib/compat/lib.js": "7a7dc2197231f07a0b18f5e0f69dd93a41811187e0a555fde6a6fea924a77675",

@@ -52,7 +52,7 @@ class TeraGuideCore {
 
 		// Initialize the submodules
 		Object.keys(deps).forEach(key => {
-			if (typeof deps[key].init === "function") {
+			if (key !== "mod" && typeof deps[key].init === "function") {
 				deps[key].init();
 			}
 		});
