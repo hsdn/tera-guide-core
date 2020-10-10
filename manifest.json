@@ -1,7 +1,7 @@
 {
     "files": {
         "LICENSE": "3a6951431f77f106f39ebc87cc32cb6aee7371cc168ec1862d2ce8775875c8f1",
-        "README.md": "8b30b42e37ebff09f5ac81ea12bd35c87fb02a9b0a2352762c56b8cce8dc6b35",
+        "README.md": "5f0c72cda13824b222e651543c4dd786151eb35251ec89a77d0c40bc197bf015",
         "index.js": "83b4720c8766d8ee7ffcd66ca46c1ad6f4e0adf4e2270d2caf69f93c4e35e5ce",
         "lib/compat/data/esZones.json": "43aedf3c82fd29736eae4b497f21bd78dfec11cfbe806c3520f1fe5336f38f1e",
         "lib/compat/data/spZones.json": "9324cf924ba3fb9e0ca7ccdeef766edc33bfab4205f875a2b3c964dcf816a0d9",
@@ -15,10 +15,10 @@
         "lib/core/events/handlers/marker_add.js": "bdbff0743e2da6ac20625739e64fafcc0cdf870eb8f42715122d56ac16751bd5",
         "lib/core/events/handlers/marker_remove.js": "6ec2210fedcdd127f71a4202dee89cc99e805eace97f9985728ad8f7f8518027",
         "lib/core/events/handlers/marker_remove_all.js": "5d115aa376e0efc950f4945fd1067755925f53ccc8e4e438aad55e3fa5f5c2ec",
-        "lib/core/events/handlers/spawn.js": "8f06a5ac23026aac26cc9dde9bbfdc6f21abc8bda471e0d681dbe6547aadfff6",
+        "lib/core/events/handlers/spawn.js": "9c2278dafc8a7ab8a759af4f17badba31216d804911af1e3780a1f8e2f909c43",
         "lib/core/events/handlers/start_events.js": "35af324afdd70c284eda5d71d5ff6461b91c44ae09f647e7d54afc4421dcfc07",
         "lib/core/events/handlers/stop_timers.js": "ffa5bac3599e268667bd121b5dd5c94a5dcaebedb7a91da7d91f33f36a4f2b5b",
-        "lib/core/events/handlers/text.js": "c4a29a59e43f6f81ee658b99da20eb4078e5be737a39d012115df116f8ee1d0f",
+        "lib/core/events/handlers/text.js": "f38fce475cf76e5b185e22051c2ef5bd610fc0ba4690421098a355c08e8d0db0",
         "lib/core/events/hooks/S_ABNORMALITY_BEGIN.js": "4fac8e934b9e7d4d45a4035f7d13b6170df46e00773c890e59fd62552e84c0f4",
         "lib/core/events/hooks/S_ABNORMALITY_END.js": "5e0a763df1ed75d10d18d43912079f80202d8595ed79363e057efffea2b6a9c0",
         "lib/core/events/hooks/S_ABNORMALITY_REFRESH.js": "21f821e6efa3a8a865d6b1637f4277444d1e7ffc6e419a9fe0b0975eddef5880",

@@ -57,7 +57,7 @@ module.exports.NetworkMod = function (mod) {
 ```
 
 #### Example of `module.json` file
-Note: The dependencies section cannot be changed. Also please **do not use** the values below **1.14** in `settingsVersion` parameter, otherwise there will be configuration migration problems.
+Note: The dependencies section cannot be changed. Also please **do not use** the values less than **1.14** in `settingsVersion` parameter, otherwise there will be configuration migration problems.
 ```json
 {
     "disableAutoUpdate": false,
