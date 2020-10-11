@@ -7,11 +7,11 @@
  * @property {*} params
  * @property {import('./lib/lang')} lang
  * @property {import('./lib/dispatch')} dispatch
+ * @property {import('./lib/core/functions')} functions
  * @property {import('./lib/core/handlers')} handlers
  * @property {import('./lib/core/hooks')} hooks
  * @property {import('./lib/core/guide')} guide
  * @property {import('./lib/core/events')} events
- * @property {import('./lib/core/functions')} functions
  * @property {import('./lib/core/gui')} gui
  * @property {import('./lib/core/commands')} commands
  */
@@ -19,11 +19,11 @@
 const submodules = [
 	["lang", require("./lib/lang")],
 	["dispatch", require("./lib/dispatch")],
+	["functions", require("./lib/core/functions")],
 	["handlers", require("./lib/core/handlers")],
 	["hooks", require("./lib/core/hooks")],
 	["guide", require("./lib/core/guide")],
 	["events", require("./lib/core/events")],
-	["functions", require("./lib/core/functions")],
 	["gui", require("./lib/core/gui")],
 	["commands", require("./lib/core/commands")],
 ];

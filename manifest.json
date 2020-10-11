@@ -2,7 +2,7 @@
     "files": {
         "LICENSE": "3a6951431f77f106f39ebc87cc32cb6aee7371cc168ec1862d2ce8775875c8f1",
         "README.md": "5f0c72cda13824b222e651543c4dd786151eb35251ec89a77d0c40bc197bf015",
-        "index.js": "83b4720c8766d8ee7ffcd66ca46c1ad6f4e0adf4e2270d2caf69f93c4e35e5ce",
+        "index.js": "9d1d35a9afd488803b02e5f7344d799ccd05811f1ef1e4781691373b8eebfb49",
         "lib/compat/data/esZones.json": "43aedf3c82fd29736eae4b497f21bd78dfec11cfbe806c3520f1fe5336f38f1e",
         "lib/compat/data/spZones.json": "9324cf924ba3fb9e0ca7ccdeef766edc33bfab4205f875a2b3c964dcf816a0d9",
         "lib/compat/lib.js": "7a7dc2197231f07a0b18f5e0f69dd93a41811187e0a555fde6a6fea924a77675",
@@ -28,7 +28,7 @@
         "lib/core/events/hooks/S_DUNGEON_EVENT_MESSAGE.js": "802efeaa1f9def6e61555ab3a989439300db74149920b3815d7991f54d8cfc59",
         "lib/core/events/hooks/S_QUEST_BALLOON.js": "b9ac1974f37bb2c76c382f9d8ba26d0945fe58948520c50aa35810d4a01c6483",
         "lib/core/events/hooks/S_SPAWN_NPC.js": "13c7d9f2705932794ce55aee6f9b5180f243251fed64a3bd2bd79573b04a0312",
-        "lib/core/functions.js": "ca701ff5ce8cacfa66ddf1c8262dc082cce4be09fdf382a595817f73f0cd954d",
+        "lib/core/functions.js": "b453973dede8ba125c508aee3211517807766df43631584f02ae64f2e4ebcbae",
         "lib/core/gui.js": "83a34315293f6b4cacbec9f8229b857b581a2bb9ff6521cd0cd8fc8e37b96590",
         "lib/core/guide.js": "232809ca5b3bd723f2e270859b5a5b63621a9ac929a254f8759b2f32c56d40f9",
         "lib/core/handlers.js": "7c3bb59835f9ca53c413c853ea820c1cb63212215effb91b5601e02a998d937f",
@@ -37,7 +37,7 @@
         "lib/lang.js": "3ab5fdee415e44090f5695fdc416f77b3cb554cbc308b56d1e84d92529bbf7bd",
         "lib/lang/dungeons.js": "0ccff276f6d3ee6c9f023d3a2ebad593cd2bba163d002037dc6440f255dfa224",
         "lib/lang/strings.js": "f8359bed8060301dacaf10252226bf1daead067164aaf8966d47fe273c2070e1",
-        "lib/send.js": "9ad865032d1f78833b95cad15da167201327ed1fca6fff7db178bb5170b7a6b3",
+        "lib/send.js": "76e8e75d5c5438da51d996721c12d9336df6ec8da7d13b96a80d805af201d01a",
         "lib/spawn.js": "964e43e6921bbab6ce45283027f1f7f0da81c1d719bf96c619d26521bab3b4c3",
         "lib/voice.js": "7a55ca893babc856c4fade9b970936f5f73958662104c0247b5c91b2a4bf322d",
         "module.json": "911a9ee1799d686f015c6972d138b7d3dcfdb7d68ccc37865c9e2f058c1914cf"
