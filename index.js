@@ -5,8 +5,9 @@
  * @typedef {Object} deps
  * @property {*} mod
  * @property {*} params
- * @property {import('./lib/lang')} lang
  * @property {import('./lib/dispatch')} dispatch
+ * @property {import('./lib/lang')} lang
+ * @property {import('./lib/speech')} speech
  * @property {import('./lib/core/functions')} functions
  * @property {import('./lib/core/handlers')} handlers
  * @property {import('./lib/core/hooks')} hooks
@@ -17,8 +18,9 @@
  */
 
 const submodules = [
-	["lang", require("./lib/lang")],
 	["dispatch", require("./lib/dispatch")],
+	["lang", require("./lib/lang")],
+	["speech", require("./lib/speech")],
 	["functions", require("./lib/core/functions")],
 	["handlers", require("./lib/core/handlers")],
 	["hooks", require("./lib/core/hooks")],

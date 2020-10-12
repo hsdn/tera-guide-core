@@ -57,7 +57,7 @@ module.exports.NetworkMod = function (mod) {
 ```
 
 #### Example of `module.json` file
-Note: The dependencies section cannot be changed. Also please **do not use** the values less than **1.14** in `settingsVersion` parameter, otherwise there will be configuration migration problems.
+Note: The dependencies section cannot be changed. Also please **do not use** the values less than **1.15** in `settingsVersion` parameter, otherwise there will be configuration migration problems.
 ```json
 {
     "disableAutoUpdate": false,
@@ -67,7 +67,7 @@ Note: The dependencies section cannot be changed. Also please **do not use** the
         "guiName": "Dungeon-Guide",
         "settingsFile": "config.json",
         "settingsMigrator": "settings_migrator.js",
-        "settingsVersion": 1.14
+        "settingsVersion": 1.15
     },
     "author": "Example",
     "description": "The dungeon guide module with TTS notifications.",
