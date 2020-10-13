@@ -15,7 +15,7 @@
         "lib/core/events/handlers/marker_add.js": "bdbff0743e2da6ac20625739e64fafcc0cdf870eb8f42715122d56ac16751bd5",
         "lib/core/events/handlers/marker_remove.js": "6ec2210fedcdd127f71a4202dee89cc99e805eace97f9985728ad8f7f8518027",
         "lib/core/events/handlers/marker_remove_all.js": "5d115aa376e0efc950f4945fd1067755925f53ccc8e4e438aad55e3fa5f5c2ec",
-        "lib/core/events/handlers/spawn.js": "9c2278dafc8a7ab8a759af4f17badba31216d804911af1e3780a1f8e2f909c43",
+        "lib/core/events/handlers/spawn.js": "785d979df24af76101e4020981017de81c74e1f4e36433ea0b4c75f59033ce87",
         "lib/core/events/handlers/start_events.js": "35af324afdd70c284eda5d71d5ff6461b91c44ae09f647e7d54afc4421dcfc07",
         "lib/core/events/handlers/stop_timers.js": "ffa5bac3599e268667bd121b5dd5c94a5dcaebedb7a91da7d91f33f36a4f2b5b",
         "lib/core/events/handlers/text.js": "b038b28856299fecd26563ba337b9e5da9a9218db87a85a840882852574f5b73",
@@ -64,7 +64,7 @@
         "S_SPAWN_BONFIRE": 2,
         "S_SPAWN_BUILD_OBJECT": 2,
         "S_SPAWN_COLLECTION": 4,
-        "S_SPAWN_DROPITEM": 8,
+        "S_SPAWN_DROPITEM": [8,9],
         "S_SPAWN_NPC": 11
     }
 }
