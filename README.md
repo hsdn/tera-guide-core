@@ -57,7 +57,7 @@ module.exports.NetworkMod = function (mod) {
 ```
 
 #### Example of `module.json` file
-Note: The dependencies section cannot be changed. Also please **do not use** the values less than **1.15** in `settingsVersion` parameter, otherwise there will be configuration migration problems.
+Note: The dependencies section cannot be changed.
 ```json
 {
     "disableAutoUpdate": false,
@@ -67,7 +67,7 @@ Note: The dependencies section cannot be changed. Also please **do not use** the
         "guiName": "Dungeon-Guide",
         "settingsFile": "config.json",
         "settingsMigrator": "settings_migrator.js",
-        "settingsVersion": 1.15
+        "settingsVersion": 1.01
     },
     "author": "Example",
     "description": "The dungeon guide module with TTS notifications.",
@@ -79,7 +79,7 @@ Note: The dependencies section cannot be changed. Also please **do not use** the
 }
 ```
 
-#### The settings migrator script available here: https://github.com/hsdn/tera-guide/blob/master/settings_migrator.js
+#### The settings migrator script available here: https://github.com/hsdn/tera-guide-core/wiki/Settings-migrator-script
 
 ## Custom translation
 
