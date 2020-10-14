@@ -93,6 +93,6 @@ Based on this module, many guides have already been created for all dungeons.
 The guide script files are available here: https://github.com/hsdn/tera-guide/tree/master/guides
 
 ## Credits
-- **[Kasea](https://github.com/tera-toolbox-mods)** - Original developer of Tera-Guide and Library modules
+- **[Kasea](https://github.com/Kaseaa)** - Original developer of Tera-Guide and Library modules
 - **[michengs](https://github.com/michengs)** - Developer of initial code of the module core
 - **[Multarix](https://github.com/Multarix)** - Author of some ideas that were used in the code

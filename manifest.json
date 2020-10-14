@@ -1,7 +1,7 @@
 {
     "files": {
         "LICENSE": "3a6951431f77f106f39ebc87cc32cb6aee7371cc168ec1862d2ce8775875c8f1",
-        "README.md": "29207e1710c7fb8fcf4a5817e09d2df8a0b435f2a6b4c0cdbf62c66204839368",
+        "README.md": "72f97375597e8058df08462fd2198440d49f00de3e79d2ad05bd6d6dccad7533",
         "index.js": "2957e361b487d53db7b91f00e1d5906746c734c23fd684217a70d1bc448f6eb0",
         "lib/compat/data/esZones.json": "43aedf3c82fd29736eae4b497f21bd78dfec11cfbe806c3520f1fe5336f38f1e",
         "lib/compat/data/spZones.json": "9324cf924ba3fb9e0ca7ccdeef766edc33bfab4205f875a2b3c964dcf816a0d9",
@@ -28,9 +28,9 @@
         "lib/core/events/hooks/S_DUNGEON_EVENT_MESSAGE.js": "802efeaa1f9def6e61555ab3a989439300db74149920b3815d7991f54d8cfc59",
         "lib/core/events/hooks/S_QUEST_BALLOON.js": "b9ac1974f37bb2c76c382f9d8ba26d0945fe58948520c50aa35810d4a01c6483",
         "lib/core/events/hooks/S_SPAWN_NPC.js": "13c7d9f2705932794ce55aee6f9b5180f243251fed64a3bd2bd79573b04a0312",
-        "lib/core/functions.js": "b453973dede8ba125c508aee3211517807766df43631584f02ae64f2e4ebcbae",
+        "lib/core/functions.js": "cbe41a1a40b128529b2341ff7cc16ae343d5fc5a3acffe10b1fbbbf49f8d85b9",
         "lib/core/gui.js": "5a7c78aea7a1f047b9d5a46ad743680aac3a57e9a4113f6b2328bc5129e22b24",
-        "lib/core/guide.js": "55fc74af932029d559e67d7865bde8aeffc4e9a08d6af029eaa1cd4f134d8572",
+        "lib/core/guide.js": "9ea6bd69b4de5671cdbd8af483c4ac7cbbfc748cff1b529d3589994b738450c1",
         "lib/core/handlers.js": "37ff00586c6882167801c76a57d1b021d5e0bb62a3d1279a3e12f8692c666d0b",
         "lib/core/hooks.js": "664a04ecf5d9e2d436e648577f17e0e4790a6c7efd297e224148c3608668091d",
         "lib/dispatch.js": "0a687dd1a38e52fbf14d724f4f9556ff08c0177fa0d32d66d66d93eb864e7f62",
@@ -40,7 +40,7 @@
         "lib/send.js": "7b6f2ee5aca9235ac43b57379f5c68760f5dc17ea3c44ae006fd9bada28edcc0",
         "lib/spawn.js": "964e43e6921bbab6ce45283027f1f7f0da81c1d719bf96c619d26521bab3b4c3",
         "lib/speech.js": "690657ddedfc4f5b5035f9d2dc949e98ff7ba56d8a1c42809235123de67464c1",
-        "lib/voice.js": "c3c77df8ac95e0160374600ff5efcc04b0103adab815ec5eb55bd893362ea6ae",
+        "lib/voice.js": "95e9b74a87faadf486a52816fb7032ae1ab638a09a9e5422e4e66de64705ca38",
         "module.json": "911a9ee1799d686f015c6972d138b7d3dcfdb7d68ccc37865c9e2f058c1914cf"
     },
     "defs": {
