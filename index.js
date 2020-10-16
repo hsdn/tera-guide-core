@@ -1,18 +1,19 @@
 "use strict";
 
 /**
- * Deps.
+ * Submodules.
  * @typedef {Object} deps
  * @property {*} mod
  * @property {*} params
  * @property {import('./lib/dispatch')} dispatch
  * @property {import('./lib/lang')} lang
  * @property {import('./lib/speech')} speech
+ * @property {import('./lib/core/proto')} proto
+ * @property {import('./lib/core/events')} events
  * @property {import('./lib/core/functions')} functions
  * @property {import('./lib/core/handlers')} handlers
  * @property {import('./lib/core/hooks')} hooks
  * @property {import('./lib/core/guide')} guide
- * @property {import('./lib/core/events')} events
  * @property {import('./lib/core/gui')} gui
  * @property {import('./lib/core/commands')} commands
  */
@@ -21,11 +22,12 @@ const submodules = [
 	["dispatch", require("./lib/dispatch")],
 	["lang", require("./lib/lang")],
 	["speech", require("./lib/speech")],
+	["proto", require("./lib/core/proto")],
+	["events", require("./lib/core/events")],
 	["functions", require("./lib/core/functions")],
 	["handlers", require("./lib/core/handlers")],
 	["hooks", require("./lib/core/hooks")],
 	["guide", require("./lib/core/guide")],
-	["events", require("./lib/core/events")],
 	["gui", require("./lib/core/gui")],
 	["commands", require("./lib/core/commands")],
 ];
@@ -47,12 +49,10 @@ class TeraGuideCore {
 		 */
 		let deps = { "mod": mod, "params": this.params };
 
-		// Load the submodules
 		submodules.forEach(submodule => {
 			deps[submodule[0]] = new submodule[1](deps);
 		});
 
-		// Initialize the submodules
 		Object.keys(deps).forEach(key => {
 			if (key !== "mod" && typeof deps[key].init === "function") {
 				deps[key].init();
