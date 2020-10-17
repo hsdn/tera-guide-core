@@ -55,7 +55,7 @@ class TeraGuideCore {
 			}
 		});
 
-		this.destructor = () => {
+		mod.destructor = () => {
 			Object.keys(deps).forEach(key => {
 				if (key !== "mod" && typeof deps[key].destructor === "function") {
 					deps[key].destructor();
