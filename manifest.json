@@ -2,7 +2,7 @@
     "files": {
         "LICENSE": "3a6951431f77f106f39ebc87cc32cb6aee7371cc168ec1862d2ce8775875c8f1",
         "README.md": "72f97375597e8058df08462fd2198440d49f00de3e79d2ad05bd6d6dccad7533",
-        "index.js": "5b28837ac5ed292883d7543a728962a4b5596b2dcd0c67331083ec9851fe2251",
+        "index.js": "ff32822330db9f267289e2dfc549787b788907cbcbdb0108343dbd0277f44a7b",
         "lib/compat/data/esZones.json": "43aedf3c82fd29736eae4b497f21bd78dfec11cfbe806c3520f1fe5336f38f1e",
         "lib/compat/data/spZones.json": "9324cf924ba3fb9e0ca7ccdeef766edc33bfab4205f875a2b3c964dcf816a0d9",
         "lib/compat/lib.js": "7a7dc2197231f07a0b18f5e0f69dd93a41811187e0a555fde6a6fea924a77675",
@@ -39,7 +39,7 @@
         "lib/core/hooks.js": "e18445b464de1f2e3e82b1fb4040a83ca740e30cccc4f8bc667b464060c5da93",
         "lib/core/proto.js": "8f0b23c4fde9ec7e3e68f00aca727a915fbc85e84bcacf45f9b55411eac680f0",
         "lib/dispatch.js": "0a687dd1a38e52fbf14d724f4f9556ff08c0177fa0d32d66d66d93eb864e7f62",
-        "lib/lang.js": "10e09e15c4eda6e8bf952d90578220ee83e783664bbe2ed5c80e4c9400a7730f",
+        "lib/lang.js": "7cfac073f627ffc72a49eade5441e204a15f3aad2bb02094175197ce420988c5",
         "lib/lang/dungeons.js": "0ccff276f6d3ee6c9f023d3a2ebad593cd2bba163d002037dc6440f255dfa224",
         "lib/lang/strings.js": "cee085a01aa42210fa8fed2a6002496f314c738b2e309e45a2fb076acf1127de",
         "lib/send.js": "dd6b54aa4c61911b2f2de1ab040c6ddbd2651ba584fe71c0bb3f871d428baaf4",

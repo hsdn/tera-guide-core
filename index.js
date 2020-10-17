@@ -1,5 +1,11 @@
 "use strict";
 
+const defaultParams = {
+	"colors": { "gui": {}, "general": {} },
+	"command": ["guide"],
+	"chat_name": "Guide",
+};
+
 /**
  * Submodules.
  * @typedef {Object} deps
@@ -33,21 +39,11 @@ const submodules = [
 ];
 
 class TeraGuideCore {
-	constructor() {
-		this.params = {
-			"colors": { "gui": {}, "general": {} },
-			"command": ["guide"],
-			"chat_name": "Guide",
-		};
-	}
-
-	load(mod, params = {}) {
-		Object.assign(this.params, params);
-
+	constructor(mod, params = {}) {
 		/** 
 		 * @type {deps}
 		 */
-		let deps = { "mod": mod, "params": this.params };
+		let deps = { "mod": mod, "params": { ...defaultParams, ...params } };
 
 		submodules.forEach(submodule => {
 			deps[submodule[0]] = new submodule[1](deps);
@@ -69,11 +65,17 @@ class TeraGuideCore {
 	}
 }
 
-module.exports.NetworkMod = function Require(mod, ...args) {
+class Loader {
+	load(mod, ...args) {
+		return new TeraGuideCore(mod, ...args);
+	}
+}
+
+module.exports.NetworkMod = function Require(mod) {
 	if(mod.info.name !== "tera-guide-core")
 		throw new Error(`Tried to require tera-guide-core module: ${mod.info.name}`);
 
-	return new TeraGuideCore(mod, ...args);
+	return new Loader();
 };
 
 module.exports.RequireInterface = (globalMod, clientMod, networkMod) => networkMod;
