@@ -35,7 +35,7 @@
         "lib/core/functions.js": "e7a86bc7871b2c17fa5034c7187bab3a593ea6b20b8a48e9b9b976cd69f20250",
         "lib/core/gui.js": "6f843332d5645705c62f6ee5c189268d8a0065e10abfe9d7e0a0144e923624f0",
         "lib/core/guide.js": "a6d8da050b373edd5d64b51ae180e9427056297210382bbbab4b073268fd910d",
-        "lib/core/handlers.js": "d3bb789c9333094302e1199dc87bbfe350b72ff0e49346c16b7e60c5667f3fc3",
+        "lib/core/handlers.js": "6078ae0501f975455ff992f2a5e995185dd0f0db4c059b132699b9e625760421",
         "lib/core/hooks.js": "e05a940b11b25286ad5b1affb899b675e8e605fd7aa23e58dd2e6781a978e7de",
         "lib/core/proto.js": "303dd864f7c99eaa649e562418916d3004f453769bb980f82d3e767f4479b5f8",
         "lib/dispatch.js": "0a687dd1a38e52fbf14d724f4f9556ff08c0177fa0d32d66d66d93eb864e7f62",
@@ -44,7 +44,7 @@
         "lib/lang/strings.js": "cee085a01aa42210fa8fed2a6002496f314c738b2e309e45a2fb076acf1127de",
         "lib/send.js": "dd6b54aa4c61911b2f2de1ab040c6ddbd2651ba584fe71c0bb3f871d428baaf4",
         "lib/spawn.js": "9a79de5dde3afd87c97f7de620a6b8c4ed3b1e3e84013c3ddeafe7ed7e62be20",
-        "lib/speech.js": "dbe9473d6c864cfef5e0b7bd24748a9974b7a178fb986b405e84da1c7a04a919",
+        "lib/speech.js": "da3ec7d014229bbc483dd7c5d68f795deed93db6d3e36c53f82f536ca65ac7a1",
         "lib/utils/powershell.js": "a5f46dc0dd7b64a0521e3998a129d106cbd4a9d7e4e29a530697c9c018179f00",
         "lib/voice.js": "7a0013c5d2e702e68ac94185235ebfb9288cfd917e4d2b0b9b65a95f73b79ed2",
         "module.json": "911a9ee1799d686f015c6972d138b7d3dcfdb7d68ccc37865c9e2f058c1914cf"
