@@ -3,6 +3,7 @@
 const colors = require("./lib/data/colors");
 
 const defaultParams = {
+	"languages": ["en"],
 	"colors": { "gui": {}, "general": {} },
 	"command": ["guide"],
 	"chat_name": "Guide"

@@ -45,6 +45,7 @@ Detailed information of guides creating is available here: https://github.com/hs
 module.exports.NetworkMod = function (mod) {
 	try {
 		mod.require["tera-guide-core"].load(mod, {
+			languages: ["en"], // supported languages
 			colors: { gui: {}, general: {} }, // you can change the color settings here
 			command: ["guide"], // set your module command(s) name
 			chat_name: "Guide", // set chat author name for notices
