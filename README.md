@@ -21,7 +21,7 @@ The guides based on this module can be found here: https://github.com/hsdn/tera-
 
 When using TeraToolbox, all dependencies will be installed automatically.
 
-For **patch 92**, you will need a compatible version of the **library** ([download here](https://git.dev.hsdn.org/tera-v92/library/archive/master.zip)).
+:warning: For **patch 92**, you will need a compatible version of the **library** ([download here](https://git.dev.hsdn.org/tera-v92/library/archive/master.zip)).
 
 ## Manual Installation
 
