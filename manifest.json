@@ -52,6 +52,6 @@
         "lib/speech.js": "41d31f47e1ec64dc78a6f4a6d0be053f2ef5fac36234dfc41acea371c8c86f2c",
         "lib/utils/powershell.js": "51d97e6c59bd901e483a4221b041a5a623a9f3f6bc7029afe063a645a0383fd4",
         "lib/voice.js": "b4b3161077832ded7267f0c5c624a6688f6eae36cd7baabb88b34e3b38543819",
-        "module.json": "911a9ee1799d686f015c6972d138b7d3dcfdb7d68ccc37865c9e2f058c1914cf"
+        "module.json": "56a2bd42e7725a944d927cd9c882d24f5491cf381393792136674413dac961dc"
     }
 }
