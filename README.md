@@ -66,7 +66,7 @@ Note: The dependencies section cannot be changed.
     "disableAutoUpdate": false,
     "name": "dungeon-guide",
     "options": {
-        "niceName": "Guide",
+        "cliName": "Guide",
         "guiName": "Dungeon-Guide",
         "settingsFile": "config.json",
         "settingsMigrator": "settings_migrator.js",
@@ -93,7 +93,7 @@ At next edit your **settings_migrator.js** by changing the `language` parameter 
 ## Available guides
 
 Based on this module, many guides have already been created for all dungeons.   
-The guide script files are available here: https://github.com/hsdn/tera-guide/tree/master/guides
+The guide script files are available here: https://github.com/hsdn/tera-guide-archive/
 
 ## Credits
 - **[Kasea](https://github.com/Kaseaa)** - Original developer of Tera-Guide and Library modules
