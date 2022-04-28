@@ -48,7 +48,7 @@
         "lib/lang/dungeons.js": "e556684959e185f75340716f234dde7c77c98c4d699b127d787b53b9111eb3e2",
         "lib/lang/strings.js": "7580b825baa87843525f31c0ecb213d7e5e42a76e0eeb58f7fa2982d0ebf55c7",
         "lib/send.js": "ea380d664c71bd0fdf25a0e9ed62c8dbd7fd772ef896092ea39cc102f48e4da2",
-        "lib/spawn.js": "255c9fdd6483e403a868c31ef0b87ecd8f337413e6790a9c3959b154668a6d02",
+        "lib/spawn.js": "390c16576d4fa26b3dfe9ccec4c6d7d948b40dbc9fb86bfce94d33b591dedbea",
         "lib/speech.js": "41d31f47e1ec64dc78a6f4a6d0be053f2ef5fac36234dfc41acea371c8c86f2c",
         "lib/utils/powershell.js": "51d97e6c59bd901e483a4221b041a5a623a9f3f6bc7029afe063a645a0383fd4",
         "lib/voice.js": "b4b3161077832ded7267f0c5c624a6688f6eae36cd7baabb88b34e3b38543819",
