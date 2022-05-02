@@ -10,6 +10,6 @@
     "servers": ["https://raw.githubusercontent.com/hsdn/tera-guide-core/master/"],
     "supportUrl": "https://github.com/hsdn/tera-guide/issues",
     "dependencies": {
-        "library": "http://git.dev.hsdn.org/tera-v92/library/raw/master/module.json"
+        "library": "https://raw.githubusercontent.com/tera-private-toolbox/library/master/module.json"
     }
 }

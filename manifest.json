@@ -1,7 +1,7 @@
 {
     "files": {
         "LICENSE": "3a6951431f77f106f39ebc87cc32cb6aee7371cc168ec1862d2ce8775875c8f1",
-        "README.md": "6ba23962932f22dba20d3e4a674ec9da51c34cdadb94802d8c6287eb28f69064",
+        "README.md": "92998824c21eabd891ea4015eedf657babf6119de6b900d2d2e40429a15c0fcb",
         "index.js": "71013206439da3b0e0f1d414553eaa09dec20b5363c661bf6863c4206c3ddd74",
         "lib/compat/data/esZones.json": "43aedf3c82fd29736eae4b497f21bd78dfec11cfbe806c3520f1fe5336f38f1e",
         "lib/compat/data/spZones.json": "9324cf924ba3fb9e0ca7ccdeef766edc33bfab4205f875a2b3c964dcf816a0d9",
@@ -52,6 +52,6 @@
         "lib/speech.js": "41d31f47e1ec64dc78a6f4a6d0be053f2ef5fac36234dfc41acea371c8c86f2c",
         "lib/utils/powershell.js": "51d97e6c59bd901e483a4221b041a5a623a9f3f6bc7029afe063a645a0383fd4",
         "lib/voice.js": "b4b3161077832ded7267f0c5c624a6688f6eae36cd7baabb88b34e3b38543819",
-        "module.json": "56a2bd42e7725a944d927cd9c882d24f5491cf381393792136674413dac961dc"
+        "module.json": "61fb30536bfdf9168b747a2b35d374b3b661f83f3240bd90efee59e9ce908ffb"
     }
 }

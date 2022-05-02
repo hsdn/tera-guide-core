@@ -17,7 +17,7 @@ The guides based on this module can be found here: https://github.com/hsdn/tera-
 
 ## Dependencies
 
-* **Library** - https://github.com/tera-toolbox-mods/library
+* **Library** - https://github.com/tera-private-toolbox/library
 
 When using TeraToolbox, all dependencies will be installed automatically.
 
@@ -76,7 +76,7 @@ Note: The dependencies section cannot be changed.
     "description": "The dungeon guide module with TTS notifications.",
     "servers": ["https://raw.githubusercontent.com/__YOUR_REPOSITORY_HERE__/master/"],
     "dependencies": {
-        "library": "https://raw.githubusercontent.com/tera-toolbox-mods/library/master/module.json",
+        "library": "https://raw.githubusercontent.com/tera-private-toolbox/library/master/module.json",
         "tera-guide-core": "https://raw.githubusercontent.com/hsdn/tera-guide-core/master/module.json"
     }
 }
