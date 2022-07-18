@@ -19,7 +19,7 @@
         "lib/core/events/handlers/marker_add.js": "0bbc407714b0fe44513163c4f4a8acbf3572ec3037bbf0deb5b5f77c4ccbbe2b",
         "lib/core/events/handlers/marker_remove.js": "1fd6e146d35a555aba4b1cf8590bb3cab40d0e4395e6017a6c673b5a28d9cddf",
         "lib/core/events/handlers/marker_remove_all.js": "3b204ea422229e481555b409dd252e7708f466c9c488aa2d284143dd5bdcb001",
-        "lib/core/events/handlers/spawn.js": "2d0cf76fd9cb2ef72ca51b681c4cfa59f0360778c670df534e741d74eb127cb0",
+        "lib/core/events/handlers/spawn.js": "cc0e2f67d1735aa5e12e5f97e3f8f40c585bdff14cf5709266ed47adff206058",
         "lib/core/events/handlers/start_events.js": "fd5bd916705077fa8077a6d1b93b9d831779ef021e2074df40a7775e2c3c8db3",
         "lib/core/events/handlers/stop_timers.js": "0da8b1fc6f40d8cc94b953a148672ebef1bda663d7fe8c8813f9c0bd5f9f09ed",
         "lib/core/events/handlers/text.js": "fe5fbcb24aac620b831852af6a6ddbd0a78d591416aac5b93ee2045e5937e36c",
