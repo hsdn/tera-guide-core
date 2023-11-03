@@ -44,7 +44,7 @@
         "lib/data/colors.js": "84869afa94e74d0bd8de97090c9b1c01e5c3884de1cd37d8ba9cadc7dbd80106",
         "lib/data/proto.js": "95d75aaa2ec575ebc2d4e0dc8969768185f72a4f97a0069ecf060f1e25df9fef",
         "lib/dispatch.js": "4b2cbf1795708074a87f864e1aea3ca6546e294318aa24a3d28db963a23ecebd",
-        "lib/lang.js": "fa1fe07931cbc5fc9958817aa151367066646f7e156536d108916deb30408573",
+        "lib/lang.js": "2713ffe6016fcaf23cbaa3af53e053055c7967664ae9324d4481b1d60cd27c09",
         "lib/lang/dungeons.js": "e556684959e185f75340716f234dde7c77c98c4d699b127d787b53b9111eb3e2",
         "lib/lang/strings.js": "7580b825baa87843525f31c0ecb213d7e5e42a76e0eeb58f7fa2982d0ebf55c7",
         "lib/send.js": "ea380d664c71bd0fdf25a0e9ed62c8dbd7fd772ef896092ea39cc102f48e4da2",
