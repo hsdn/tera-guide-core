@@ -34,7 +34,7 @@
         "lib/core/events/hooks/S_NPC_STATUS.js": "36bcfa3891e97c9a08c1a6386b54d594ed8b23828320d072757c2ae07c45866b",
         "lib/core/events/hooks/S_QUEST_BALLOON.js": "c68a2f56a34b33c722d0eb29dd38e7e69e8862a315104d5351377d75cc363da5",
         "lib/core/events/hooks/S_SPAWN_NPC.js": "d7a3f8a07c29a0a539f9ef8675dfee8ae5bdc57214f01849c41dcdde8e5a5b74",
-        "lib/core/functions.js": "0f12c98a67679c127fbed4f0a0a211f986186b37b8fdfc8811c17357073edfe8",
+        "lib/core/functions.js": "a965e841b0092327c2837e1ed025555275d66be90346a5d49fa232e31b0a8f18",
         "lib/core/gui.js": "88a66e2afe330bd02e53fd4f56ecda01dd27d3bfe49b8220dc6b0893d105b278",
         "lib/core/guide.js": "e45b68f8e6471e8a40d5ddba1b19c68624e7e4baad78dfe8818ebb88e3b3f049",
         "lib/core/handlers.js": "b6da7961bf2a2e9d90b0d8af870dcb6e06cc969343a16419290a0ce7b0b209e7",
